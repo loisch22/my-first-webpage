@@ -10,6 +10,22 @@ p{
   font-family: sans-serif;
   color: black;
 }
+p.intro{
+  width: 50%;
+  font-style: italic;
+}
+p.author{
+  width: 75%;
+  font-style: italic;
+  font-weight: bold;
+}
+p.closing{
+  text-align: center;
+  font-style: italic;
+}
+.center{
+  color: green;
+}
 ul{
   font-size: 20px;
   line-height: 30px;
