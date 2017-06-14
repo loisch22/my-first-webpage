@@ -6,9 +6,14 @@ h2{
   font-style: italic;
   text-align: center;
 }
+.center{
+  color: green;
+}
+.word{
+  color: red;
+}
 p{
   font-family: sans-serif;
-  color: black;
 }
 p.intro{
   width: 50%;
@@ -22,9 +27,6 @@ p.author{
 p.closing{
   text-align: center;
   font-style: italic;
-}
-.center{
-  color: green;
 }
 ul{
   font-size: 20px;
