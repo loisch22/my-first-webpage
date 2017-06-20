@@ -1,10 +1,57 @@
-h1{
-  color: green;
-  text-align: center;
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
 }
-h2{
-  font-style: italic;
+* { /*No white space on top*/
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: block;
+  background-image: url("../rocky-cliff.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  background-size: 100%;
+  height: 100vh;
+  width: 100vw;
   text-align: center;
+  background-color: #faf0e6;
+  opacity: .9;
+  overflow: hidden;
+}
+.header h1 {
+  border: none;
+  padding-top: 26%;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: #cccccc 1px;
+  font-family: 'Raleway' , sans-serif;
+  font-size: 350%;
+  font-weight: 400px;
+  letter-spacing: 6px;
+}
+.header h2 {
+  border-style: hidden;
+  background-color: #d9b99b;
+  opacity: .9;
+  color: #ffffff;
+  text-shadow: #cccccc 1px;
+  margin-top: 1%;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding: 10px;
+  font-family: 'Lora' , serif;
+  font-style: normal;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.myFirst {
+  display: block;
+  border: solid 1px;
 }
 .center{
   color: green;
@@ -15,16 +62,16 @@ h2{
 p{
   font-family: sans-serif;
 }
-p.intro{
+.intro{
   width: 50%;
   font-style: italic;
 }
-p.author{
+.author{
   width: 75%;
   font-style: italic;
   font-weight: bold;
 }
-p.closing{
+.closing{
   text-align: center;
   font-style: italic;
 }
@@ -48,4 +95,16 @@ img{
   margin: 12px;
   border: 2px solid green;
   padding: 4px;
+}
+.digital p{
+  background-color: red;
+}
+.digital p a{
+  font-weight: bold;
+}
+a{
+  font-weight: normal;
+}
+.analog p{
+  background-color: yellow;
 }
