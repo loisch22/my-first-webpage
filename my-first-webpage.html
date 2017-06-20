@@ -1,34 +1,48 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lora|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Noto+Serif|Open+Sans|Raleway|Roboto+Condensed" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> Web page #1! </title>
   </head>
   <body>
-  <header class="header">
-    <h1> My first web page</h1>
-    <h2> Written with the guidance of <em>Epicodus</em></h2>
-  </header>
-  <div class="myFirst">
-    <p> This is my <strong>first web page</strong>! </p>
-    <p> Isn't it nice?</p>
-  </div>
-    <p> Here are some things I'm going to learn about coding: </p>
-      <ul>
-        <li> HTML </li>
-        <li> CSS </li>
-        <li> JavaScript </li>
-        <li> And a lot more! </li>
-      </ul>
-
-    <p>Here is a link to my <a href="favorite-things.html">favorite things</a>.</p>
-
-    <p>Check out <a href="http://www.epicodus.com/">Epicodus</a>. It's a great
-      school for learning web programming!
-    </p>
-
+    <div class="container-fluid">
+      <header class="header">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">Portfolio</a></li>
+          </ul>
+        </nav>
+        <h1> My first web page</h1>
+        <h2> Written with the guidance of <em>Epicodus</em></h2>
+      </header>
+    </div>
+    <div id="myFirst">
+      <p class="myFirst"> This is my <strong>first web page</strong>! </p>
+      <p class="myFirst"> Isn't it nice?</p>
+    </div>
+    <div class="container">
+      <p> Here are some things I'm going to learn about coding: </p>
+        <ul>
+          <li> HTML </li>
+          <li> CSS </li>
+          <li> JavaScript </li>
+          <li> And a lot more! </li>
+        </ul>
+    </div>
+    <div class="favthings">
+      <p>Here is a link to my <a href="index.html">favorite things</a>.</p>
+    </div>
+<!--I don't like this photo on this page but leaving for assignment
     <img src="Tobi-walk.jpg" alt="A photo of Tobi during a walk in the fall">
     <p> This is Tobi. A pomeranian-shih tzu mixed cutie.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-    </body>
+ -->
+    <div class="footer">
+      <p>Check out <a href="http://www.epicodus.com/">Epicodus</a>. It's a great
+        school for learning web programming!
+      </p>
+    </div>
+  </body>
 </html>

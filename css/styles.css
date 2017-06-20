@@ -49,9 +49,25 @@
   text-align: center;
   letter-spacing: 2px;
 }
-.myFirst {
+#myFirst {
   display: block;
-  border: solid 1px;
+  border: hidden 1px;
+  color: #90877c;
+  background: #faf8f6;
+  padding: 3%;
+  text-align: center;
+}
+.myFirst:first-of-type {
+  font-family: 'Noto Serif' , serif;
+  font-size: 300%;
+  font-style: italic;
+  letter-spacing: 5px;
+  margin-bottom: 25px;
+}
+.myFirst:last-of-type {
+  font-size: 110%;
+  font-family: 'Open Sans',sans-serif;
+  letter-spacing: 1px;
 }
 .center{
   color: green;
