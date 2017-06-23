@@ -149,8 +149,24 @@
   margin-top: 10%;
   margin-bottom: 10%;
 }
-.favthings a {
+.favthings a:link {
+  border: hidden 2px;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+  background: #d2bc88;
+  color: #ffffff;
+  opacity: .9;
+}
+.favthings a:visited {
+  background-color: #d2bc88;
+  color: #ffffff;
+  opacity: .9;
+}
+.favthings a:hover {
   border: solid;
+  border-color: #d2bc88;
+  opacity: 1;
 }
 .footer {
   border: hidden;
