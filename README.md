@@ -8,4 +8,4 @@
 
 _{This is the first webpage I built with the guidance of Epicodus as well as my past experience. Its purpose is to practice building a webpage using HTML and CSS.}_
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2016 **_{Epicodus}_**
