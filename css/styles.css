@@ -231,3 +231,6 @@ a{
 .analog p{
   background-color: yellow;
 }
+@media screen and (max-width 768px;) {
+
+}
